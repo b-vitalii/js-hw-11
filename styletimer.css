@@ -1,0 +1,101 @@
+body{
+    font:normal 13px/20px Arial,Helvetica,sans-serif;
+    word-wrap:break-word;
+    color:#eee;
+    background:#353535
+}
+#timer-1{
+    width:465px;
+    height:112px;
+    text-align:center;
+    background:#222;
+    background-image:-webkit-linear-gradient(top,#222,#333,#333,#222);
+    background-image:-moz-linear-gradient(top,#222,#333,#333,#222);
+    background-image:-ms-linear-gradient(top,#222,#333,#333,#222);
+    background-image:-o-linear-gradient(top,#222,#333,#333,#222);
+    border:1px solid #111;
+    border-radius:5px;
+    box-shadow:0 0 8px rgba(0,0,0,0.6);
+    margin:auto;
+    padding:24px 0;
+    position:absolute;
+    top:0;bottom:0;
+    left:0;
+    right:0
+}
+#timer-1:before{
+    content:"";
+    width:8px;
+    height:65px;
+    background:#444;
+    background-image:-webkit-linear-gradient(top,#555,#444,#444,#555);
+    background-image:-moz-linear-gradient(top,#555,#444,#444,#555);
+    background-image:-ms-linear-gradient(top,#555,#444,#444,#555);
+    background-image:-o-linear-gradient(top,#555,#444,#444,#555);
+    border:1px solid #111;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    display:block;position:absolute;
+    top:48px;
+    left:-10px
+}
+#timer-1:after{
+    content:"";
+    width:8px;
+    height:65px;
+    background:#444;
+    background-image:-webkit-linear-gradient(top,#555,#444,#444,#555);
+    background-image:-moz-linear-gradient(top,#555,#444,#444,#555);
+    background-image:-ms-linear-gradient(top,#555,#444,#444,#555);
+    background-image:-o-linear-gradient(top,#555,#444,#444,#555);
+    border:1px solid #111;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    display:block;
+    position:absolute;
+    top:48px;
+    right:-10px
+}
+h1 {
+    text-align: center;
+    margin-top:10%;
+    color: #f0b209;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;  
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px rgb(255, 166, 0);
+}
+.field {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #84848a;
+    border-radius: 10%;
+    margin-left: 10px;
+    color: rgba(255, 166, 0, 0.801);
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px rgb(255, 166, 0);
+    
+  }
+  .timer {
+    width: 600px;
+    display: flex;
+    margin: 50px auto;
+  }
+
+  .label{
+    font-size: 10px;
+    margin-top: 40px;
+    
+  }
+  .value{
+    font-size: 40px;
+    margin-top: 40px; 
+    
+  }
+
+  
